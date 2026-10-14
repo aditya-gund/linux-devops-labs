@@ -1,67 +1,62 @@
-# Linux, Networking and DevOps Labs
+# Linux, Networking and Shell Scripting Labs
 
-A hands-on portfolio documenting practical exercises in
-Linux administration, computer networking, scripting,
-cloud infrastructure, containers, Kubernetes, Terraform,
-CI/CD, monitoring and Site Reliability Engineering.
+A hands-on learning repository documenting practical Linux
+administration, computer networking and shell scripting exercises
+using my local Ubuntu and CentOS Vagrant virtual machines.
 
-## Topics Covered
+## 1. Linux Administration
 
-### 1. Linux Administration
-- Filesystem navigation and package management
-- Users, groups and file permissions
-- Processes, signals and resource utilization
-- systemd, services and logs
-- Disk management and troubleshooting
+- Filesystem navigation and exploration
+- APT, DNF and package management
+- Users, groups and permissions
+- Processes, signals and job control
+- Services and systemd
+- Logs and troubleshooting
+- Disk usage and filesystem management
+- Environment variables and Linux commands
+- File searching, text processing and command pipelines
 
-### 2. Computer Networking
+## 2. Computer Networking
+
 - OSI and TCP/IP models
 - IP addressing, CIDR and subnetting
+- Network interfaces and routing tables
 - DNS resolution and troubleshooting
 - TCP, UDP, ports and sockets
-- Routing, gateways and network interfaces
-- HTTP, HTTPS, TLS and certificates
+- HTTP, HTTPS and TLS basics
 - SSH and remote connectivity
-- Firewalls and Linux network security
-- Packet inspection and connectivity troubleshooting
+- Firewalls and connectivity troubleshooting
+- Network diagnostic tools
+- Packet inspection and traffic analysis
 
-### 3. Bash and Python Automation
-- Shell scripting and command pipelines
-- Exit codes, error handling and logging
-- Python automation and API integration
-- Automated tests and operational scripts
+## 3. Shell Scripting
 
-### 4. Cloud and Infrastructure as Code
-- AWS networking and infrastructure
-- Terraform modules and state management
-- Infrastructure provisioning and security
-
-### 5. Containers and Kubernetes
-- Docker images and containers
-- Kubernetes workloads and services
-- Helm and deployment configuration
-- Troubleshooting failed workloads
-
-### 6. CI/CD and GitOps
-- GitHub Actions and Jenkins
-- Automated testing and deployment
-- Argo CD and GitOps workflows
-- Release management and rollback
-
-### 7. Monitoring and SRE
-- Prometheus and Grafana
-- Metrics, logs and alerts
-- Incident investigation and root-cause analysis
-- Reliability objectives and operational runbooks
+- Bash fundamentals and variables
+- Conditions, loops and functions
+- Arguments and exit codes
+- Input/output redirection and pipes
+- File handling and text processing
+- Error handling and logging
+- Processes and signals in scripts
+- Automation of routine Linux tasks
+- Script debugging and validation
 
 ## Repository Structure
 
-- `labs/` - Individual exercises, scripts and evidence
+- `labs/` - Individual practical exercises
 - `sessions/` - Recorded terminal sessions
-- `scripts/` - Automation utilities
+- `scripts/` - Reusable Bash scripts
+- `evidence/` - Sanitized command outputs and lab evidence
 
-Each completed lab should document its objective, commands,
-observed output, troubleshooting steps and verification results.
+## Lab Documentation
 
-Only publish sanitized evidence. Never commit passwords,
-tokens, private keys or other sensitive information.
+Each lab should include:
+- Objective
+- Commands performed
+- Observed output
+- Troubleshooting steps
+- Verification results
+- Key learnings
+
+All exercises are performed in my local Vagrant environment.
+Sensitive information must be removed before publishing evidence.
