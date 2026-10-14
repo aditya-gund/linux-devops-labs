@@ -1,0 +1,8 @@
+/root/
+├── answers
+│   ├── tree-output.txt
+│   └── tree-version.txt
+└── snap
+    └── lxd
+
+3 directories, 2 files
